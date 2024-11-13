@@ -1,4 +1,4 @@
-import { MagicButton } from "./ui/MagicButton";
+import MagicButton from "./ui/MagicButton";
 import { Spotlight } from "./ui/Spotlight";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 
@@ -12,9 +12,9 @@ const Hero = () => {
         />
         <Spotlight
           className="top-10 left-full h-[80vh] w-[50vh]"
-          fill="green"
+          fill="purple"
         />
-        <Spotlight className="-top-28 -left-80 h-[80vh] w-[50vh]" fill="blue" />
+        <Spotlight className="-top-28 -left-72 h-[80vh] w-[50vh]" fill="blue" />
       </div>
 
       <div className="h-screen w-full dark:bg-black-100 bg-white  dark:bg-grid-white/[0.03] bg-grid-black/[0.2] flex items-center justify-center absolute top-0 left-0">
@@ -23,7 +23,7 @@ const Hero = () => {
 
       <div className="flex justify-center relative my-20 z-10">
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
-          <h2 className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80">
+          <h2 className="uppercase tracking-widest text-xs text-center text-green-100 max-w-80">
             Bienvenue sur mon Portfolio
           </h2>
 
@@ -36,7 +36,7 @@ const Hero = () => {
             Salut ! Je suis Ibrahim, un développeur Next.js
           </p>
 
-          <MagicButton />
+          <MagicButton title="Mes créations" />
         </div>
       </div>
     </div>
